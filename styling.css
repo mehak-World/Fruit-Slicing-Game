@@ -1,0 +1,93 @@
+#container{
+    height: 500px;
+    width: 600px;
+    margin: 100px  auto;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0px 4px #006eff;
+    background-color: lightblue;
+    position: relative;
+}
+
+
+#score{
+    padding: 10px;
+    margin-left: 500px;
+    position: absolute;
+    color: gray;
+    box-shadow: 0px 4px #9da853;
+    background-color: lightgoldenrodyellow;
+}
+
+#chances{
+    box-shadow: 0px 4px #9da853;
+    background-color: lightgoldenrodyellow;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+   display: none;
+}
+
+#fruits{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    margin: 10px 30px;
+    box-shadow: 0px 4px "blue";
+    position: relative;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+#Instruction{
+    background-color:#b481d9;
+    height: 60px;
+    width : 400px;
+    margin: 10px 80px;
+    text-align: center;
+    line-height :50px;
+    box-shadow: 0px 4px #8153a8;
+}
+
+#startReset{
+    padding: 4px;
+    height: auto;
+    width : 100px;
+    margin: 0 auto;
+    background-color: azure;
+    box-shadow: 0px 4px #7ea8bb;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    line-height :40px;
+}
+
+#gameOver{
+    background: linear-gradient(#f3be6b, #f3786c);
+    height: 200px;
+    width :400px;
+    position: absolute;
+    left: 100px;
+    top:150px;
+    z-index: 2;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 50px;
+    color: white;
+    padding: 10px;
+   display: none;
+}
+
+.life{
+    margin: 1px;
+}
+
+#gameOver p:nth-child(2){
+    font-size: 30px;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
+}
